@@ -1,7 +1,7 @@
 <h2>My Heroes</h2>
 
 <div>
-    <label for="heroName"></label> <input #heroName />
+    <label>Hero name:</label> <input #heroName />
     <button (click)="add(heroName.value); heroName.value=''">Add</button>
 </div>
 <ul class="heroes">
